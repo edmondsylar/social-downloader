@@ -1,0 +1,169 @@
+.page_login_user_admin {
+    width: 26%;
+    margin: auto;
+}
+
+.page_login_user_admin_1 {
+    background: #fff;
+    width: 100%;
+    min-height: 30em;
+    padding: 1%;
+    margin-top: 15%;
+    border-radius: .25rem;
+    display: block;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.image_div_login_admin {
+    width: 95%;
+    height: 10em;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-top: 10%;
+    text-align: center;
+    text-align: -webkit-center;
+    /* border-bottom: 1px solid #eee; */
+}
+
+.img_login_admin_1 {
+    margin: auto;
+    /* padding-top: 2%; */
+    width: 5em;
+    height: 5em;
+}
+
+.text_home_box_login_admin {
+    height: 2em;
+    text-align: center;
+    text-align: -webkit-center;
+    color: #565656;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1.5rem;
+}
+
+.div_imput_login_admin {
+    width: 100%;
+    height: 4em;
+}
+
+.form__input_config_login {
+    margin: auto;
+    margin-bottom: -2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.page_login_user_admin_2 {
+    background: #fff;
+    margin-top: 3%;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    display: block;
+    padding: 1%;
+}
+
+.div_info_login_admin_bom {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+}
+
+.text_help_login_admin {
+    margin: auto;
+    width: 50%;
+    color: #333;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+}
+
+.login-admim {
+    width: 50%;
+    margin: auto;
+}
+
+.login-admim-btn {
+    width: 100%;
+    padding: 3%;
+}
+
+._text_p_box_2_login_1 {
+    text-align: center;
+    text-align: -webkit-center;
+    color: #565656;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .8rem;
+}
+
+._text_p_box_2_login_1_span {
+    margin-left: 1%;
+    font-weight: 500;
+    color: #e43a2a;
+}
+
+._text_p_box_2_login_2 {
+    text-align: center;
+    text-align: -webkit-center;
+    color: #565656;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+._text_p_box_2_login_2_span {
+    color: #4374e0;
+}
+
+#error_login_admin {
+    background: #fff;
+    width: 100%;
+    min-height: 1em;
+    border-radius: .15rem;
+    display: block;
+    /* position: fixed; */
+    border: 1px solid #48484c94;
+    margin-bottom: 3%;
+    /* border-left: 3px solid #f5584a; */
+    /* top: 38%; */
+    /* left: 1%; */
+    background: #d32920;
+    /* background: linear-gradient(262deg,#ffffff,#fdfdfd); */
+    /* box-shadow: 0 1px 3px rgba(0,0,0,.05); */
+    z-index: 1000;
+}
+
+.error_login_admin_text {
+    width: 95%;
+    margin: 1%;
+    /* margin-top: 1%; */
+    margin-left: 3%;
+    min-height: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    will-change: transform;
+    text-decoration: unset;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .985rem;
+}
+
+.page_login_user_admin_3 {
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+}
+
+.page_login_user_admin_3_text_langs_a {
+    margin: auto;
+}
+
+.page_login_user_admin_3_text_langs {
+    color: #4374e0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 0.985rem;
+    font-weight: 500;
+    margin: auto;
+}
+
+.page_login_user_admin_3_text_langs:hover {
+	color: #000;
+}

@@ -1,0 +1,1337 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); @import url('https://fonts.googleapis.com/css?family=Nunito'); ::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #edf0f5;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 15px;
+    /* height: 18px; */
+    background: #7b7b7b;
+    border: 1px solid #7b7b7b;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+}
+
+::-moz-scrollbar-track-piece {
+    background-color: #edf0f5;
+}
+
+::-moz-scrollbar-thumb {
+    width: 15px;
+    /* height: 18px; */
+    background: #a5a8b1;
+    border: 1px solid #8a8c8b;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+::-moz-selection {
+    background: #7289d9;
+    color: #fff
+}
+
+::selection {
+    background: #7289d9;
+    color: #fff
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+}
+
+h6 {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 0.8em;
+    background: #000;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #ced0cf;
+    background: #edf0f5;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ced0cf;
+    background: #a0a0a0;
+    outline: 1px solid slategrey;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+body {
+    background: #edf0f5 !important;
+    margin: auto;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -400px 0;
+    }
+}
+
+/* header */
+header {
+    background: #fff;
+    width: 76%;
+    height: 4em;
+    max-height: 4em;
+    margin-left: 22%;
+    border-radius: 0rem 0rem .25rem .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    padding: 0;
+    position: fixed;
+    display: flex;
+    z-index: 8;
+}
+
+.logo_dep {
+    background: transparent;
+    width: 135px;
+    height: 50px;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.logo_dep:hover {
+    opacity: .9;
+}
+
+.info_panel_name_header {
+    margin: auto;
+    margin-top: 5%;
+    text-align: -webkit-center;
+    text-align: center;
+    color: #34364b;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+}
+
+.info_panel_name_header_img {
+    width: 16px;
+    height: 16px;
+    margin: auto;
+    margin-top: -3px;
+    margin-right: 1%;
+}
+
+.info_panel_name_header_span {
+    color: #4374e0;
+    font-size: .72rem;
+    margin-left: 2%;
+}
+
+.div_header_onli {
+    width: 16%;
+    height: 2.1em;
+    margin: auto;
+    margin-left: 0%;
+    padding-left: 1%;
+    text-align: center;
+    border-radius: 0;
+    border-right: 1px solid #eee;
+}
+
+.div_header_onli_p {
+    font-size: .91rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #464040;
+    /* font-weight: 500; */
+    margin: auto;
+    height: -webkit-fill-available;
+    line-height: 1.8;
+}
+
+.div_header_onli_span {
+    font-weight: 500;
+    color: #f75a5a;
+    margin-left: 1%;
+}
+
+nav {
+    width: 46%;
+    height: 3.5em;
+    max-height: 3.5em;
+    background: transparent;
+    margin-left: auto;
+    margin-right: 0rem;
+}
+
+.div_user_admin_top {
+    background: #fff;
+    width: 13em;
+    margin-left: 49%;
+    height: 3em;
+    margin-top: 1%;
+    border: 1px solid #e8e8e8;
+    border-radius: 7px;
+    padding: 1%;
+    display: flex;
+}
+
+.div_user_admin_top:hover {
+    background: #fbfbfb;
+}
+
+.div_user_admin_top_text {
+    width: 8em;
+    margin: auto;
+    margin-left: 3%;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.div_user_admin_top_image {
+    width: 32px;
+    height: 32px;
+    border-radius: 3em;
+    box-shadow: 0 1px 0 1px #edf0f5;
+}
+
+.box_menu_panel {
+    background: transparent;
+    width: 22%;
+    height: 100%;
+    /* display: grid; */
+    position: fixed;
+}
+
+#menu_panel {
+    overflow-y: hidden;
+    height: 76%;
+}
+
+#menu_panel:hover {
+    width: 80%;
+    overflow-y: scroll;
+    height: 76%;
+}
+
+.list_le_menu_panel, #menu_panel:hover {
+    width: 83%;
+}
+
+#menu_panel::-webkit-scrollbar-thumb {
+    width: 15px!important;
+    /* height: 18px; */
+    background: #555;
+    border: 1px solid #46484a;
+    border-radius: 1.4rem;
+    -moz-border-radius: 1.4rem;
+    -webkit-border-radius: 1.4rem;
+}
+
+.menu_panel {
+    background: transparent;
+    width: 80%;
+    height: 87%;
+    margin-top: 4.5%;
+    margin-left: 9%;
+    border-radius: .25rem;
+    /* box-shadow: 0 1px 3px rgba(0,0,0,.05); */
+    padding: 0%;
+    z-index: 6;
+}
+
+.menu_panel a {
+    color: #4374e0;
+    text-decoration: unset;
+}
+
+.list_le_menu_panel {
+    background: transparent;
+    width: 100%;
+    height: 3.2em;
+    display: flex;
+}
+
+.list_le_menu_panel:hover {
+    background: transparent;
+    background: linear-gradient(262deg,transparent,#ffffff8a);
+    border-left: 0px solid #000;
+    border-radius: 3px;
+}
+
+.list_le_menu_panel_text {
+    margin: auto;
+    margin-left: inherit;
+    width: 82%;
+    height: 2.5em;
+    line-height: 2.6;
+    padding-left: 2%;
+    color: #34364b;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+}
+
+.list_le_menu_panel_icon {
+}
+
+.line_menu_panel {
+    background: #edf0f5;
+    width: 100%;
+    height: 1px;
+}
+
+.text_titule_div_all {
+    width: 100%;
+    height: 2em;
+    margin: auto;
+}
+
+.text_titule_div_all_p {
+    margin: auto;
+    height: 2em;
+    line-height: 2;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 3%;
+    color: #34364b;
+    text-transform: uppercase;
+    will-change: transform;
+    text-decoration: unset;
+    border-bottom: 1px solid #eee;
+}
+
+.info_upload_boo {
+    background: #ffffff;
+    width: 100%;
+    height: 2em;
+    margin-top: 4%;
+    border: 1px solid #ffffff;
+    border-radius: .25rem;
+    /* box-shadow: 0 1px 1px 0px #a7a7a780; */
+}
+
+.info_upload_boo_text {
+    width: 97%;
+    margin: auto;
+    line-height: 2;
+    padding-left: 4%;
+    color: #34364b;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-family: 'Nunito', sans-serif;
+}
+
+.info_upload_boo_data {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#info_software {
+    background-color: #fff;
+    width: 87%;
+    height: 5em;
+    max-height: 7em;
+    margin: auto;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    padding: 0%;
+    z-index: 6;
+}
+
+.icon_svg_menu {
+    margin: auto;
+    color: #11446f;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 2;
+    background: #fff;
+    border-radius: 4em;
+}
+
+.icon_svg_menu svg {
+    width: 1.1em;
+    height: 1.1em;
+}
+
+.icon_svg_menu svg:hover {
+    opacity: .7;
+}
+
+/* html pages */
+.text_top_page_admin {
+    width: 94%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-left: 1%;
+    display: grid;
+}
+
+.text_top_page_admin_span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+.page_div_full {
+    background: transparent;
+    width: 77.6%;
+    /* height: 35em; */
+    min-height: 30em;
+    margin-top: 5.6%;
+    margin-left: 22%;
+    padding-bottom: 4%;
+    z-index: 7;
+    position: absolute;
+}
+
+.page_div_full_login {
+    width: 100%;
+    margin: auto !important;
+}
+
+.text_manul_sistem {
+    width: 98%;
+    height: 2em;
+    line-height: 2;
+    font-family: 'Nunito', sans-serif;
+    color: #34364b;
+    text-transform: uppercase;
+    will-change: transform;
+    text-decoration: unset;
+    border-bottom: 1px solid #a5a8b1;
+}
+
+/* panel admin */
+.div_box_1_admin {
+    width: 100%;
+    display: block;
+}
+
+.div_wall_admin_1 {
+    width: 100%;
+    display: flex;
+}
+
+.div_wall_admin_2 {
+    width: 100%;
+    display: block;
+}
+
+.div_wall_admin_3 {
+    width: 100%;
+    display: flex;
+}
+
+.div_esta_di_web {
+    background: #fff;
+    width: 66%;
+    height: 24em;
+    max-height: 24em;
+    min-height: 24em;
+    display: block;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    position: relative;
+    text-align: start;
+}
+
+.geo_data_pais {
+    background: #fff;
+    width: 31%;
+    height: 24em;
+    max-height: 24em;
+    min-height: 24em;
+    margin: 10px;
+    margin-left: 1%;
+    display: block;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    position: relative;
+    text-align: start;
+    /* overflow-y: auto; */
+}
+
+.box_1_panel {
+}
+
+.cass_data_info_admin {
+    background: #fff;
+    width: 13.41em;
+    height: 4.3em;
+    max-height: 5em;
+    /* margin: 1%; */
+    margin-right: 1.8%;
+    margin-bottom: 1%;
+    padding: .5%;
+    border-radius: 3px;
+    border: 1px solid #a9abc7;
+    display: inline-flex;
+}
+
+.img_panel_data_info_div {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 1%;
+}
+
+.img_panel_data_info {
+}
+
+.admin_esta_info {
+    width: 73%;
+    display: grid;
+    font-size: 17px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.admin_esta_info_name {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin-left: 4%;
+}
+
+.platafo_media_info {
+    width: 40%;
+}
+
+.nave_and_system {
+    background: transparent;
+    width: 32%;
+    height: 24em;
+    max-height: 24em;
+    min-height: 24em;
+    margin: 10px;
+    margin-top: 3.5%;
+    margin-left: 1%;
+}
+
+.na_admin_info {
+    width: 100%;
+    height: 22em;
+    min-height: 22em;
+    margin-bottom: 3%;
+    display: block;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    position: relative;
+    text-align: start;
+}
+
+.si_admin_info {
+    width: 100%;
+    height: 22em;
+    min-height: 22em;
+    margin-bottom: 3%;
+    display: block;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    position: relative;
+    text-align: start;
+}
+
+.box_info_media_so {
+    background: transparent;
+    width: 100%;
+    display: grid;
+}
+
+.box_info_media_so_wall {
+    background-color: #fff;
+    width: 98%;
+    height: 3.5em;
+    min-height: 3.5em;
+    border-left: 2px solid #6893ec;
+    margin-left: 0%;
+    margin-bottom: 3%;
+    padding: 1%;
+    display: inline-flex;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    position: relative;
+    text-align: start;
+}
+
+.box_info_media_so_wall_icon {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: -2%;
+    margin-left: 1%;
+}
+
+.box_info_media_so_wall_img {
+    width: 100%;
+    /* height: 100%; */
+    margin-top: -13%;
+    margin-left: -28%;
+}
+
+.box_info_media_so_dia_flex {
+    width: 67%;
+    height: 1.5em;
+    margin: auto;
+    margin-right: 5%;
+    display: block;
+}
+
+.box_info_media_so_wall_text {
+    display: table-row-group;
+    font-size: 19px;
+}
+
+.box_info_media_so_wall_p {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #34364b;
+}
+
+.size_admin_more_media {
+    width: 14%;
+    height: 2em;
+    text-align: -webkit-center;
+    text-align: center;
+    margin: auto;
+}
+
+.circle {
+    border-radius: 500px;
+}
+
+.gd-primary {
+    color: #fff;
+    border: none;
+    background: #448bff linear-gradient(45deg,#448bff,#44e9ff);
+}
+
+.progress-bar {
+    height: 100%;
+    text-align: center;
+    font-size: .8em;
+    border-radius: .25rem;
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+.progress {
+    margin-bottom: 3px;
+    border-radius: .25rem;
+    overflow: visible;
+    background-color: rgba(135,150,165,.1);
+}
+
+.noti_alre_admin {
+    width: 34em;
+    height: 4rem;
+    background: #fff;
+    position: fixed;
+    z-index: 10;
+    border: 1px solid #d8d8d8;
+    border-left: 2px solid #65c576;
+    top: 10%;
+    left: 63%;
+    padding: 1%;
+    border-radius: .25rem;
+    display: flex;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.noti_alre_admin_span {
+    width: 2em;
+    height: 2em;
+    color: #65c576;
+    margin: auto;
+    margin-left: 1%;
+}
+
+.noti_alre_admin_text {
+    width: 90%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    margin-left: 1%;
+}
+
+/* more_info_media_page */
+.more_info_media_page {
+    background-color: #fff;
+    width: 60%;
+    /* height: 3.5em; */
+    min-height: 34em;
+    margin-left: 0%;
+    margin-bottom: 3%;
+    padding: 1%;
+    display: inline-flex;
+    -webkit-border-radius: 2px;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    display: block;
+}
+
+.more_box_mp_20 {
+    font-size: 16px;
+}
+
+.more_box_mp_21 {
+    border: none !important;
+    font-size: 1.6rem;
+    margin: auto;
+    margin-top: -0.70rem;
+    color: #34364b;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.more_box_mp_21:hover {
+    box-shadow: none !important;
+}
+
+.more_box_mp_22 {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #eee;
+    box-shadow: unset;
+}
+
+.more_box_mp_23 {
+    width: 70%;
+}
+
+.wall_data_more_info_media_page {
+    width: 100%;
+    height: 4em;
+    max-height: 4em;
+    min-height: 4em;
+    margin: auto;
+    display: flex;
+}
+
+.wall_data_more_info_media_page_1 {
+    width: 68%;
+    margin: auto;
+    margin-left: 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+}
+
+.wall_data_more_info_media_page_1 img, svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+    margin-right: 2%;
+}
+
+.wall_data_more_info_media_page_2 {
+    background: #ffffff;
+    width: 26%;
+    height: 2em;
+    margin: auto;
+    margin-left: 6%;
+    line-height: .6;
+    color: #333;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.0rem;
+    font-weight: bold;
+    /* border: 1px solid #eee; */
+    border-radius: .25rem;
+    /* box-shadow: 0 1px 3px rgba(0,0,0,.05); */
+}
+
+.wall_data_more_info_media_page p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.text_media_p_top {
+    margin: 2%;
+    font-size: 1.2rem;
+    color: #4374e0;
+}
+
+.class_div_top_links {
+    background: #f5f5f5;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.class_div_top_links_data {
+    display: flex;
+    padding: 2%;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.class_div_top_links_data:hover {
+    background: #ffffff;
+}
+
+.class_div_top_links_data_1 {
+    width: 95%;
+    font-size: 14px;
+}
+
+.class_div_top_links_data_2 {
+    width: 5%;
+    margin: auto;
+}
+
+.class_div_top_links_data_url {
+    font-size: 15px;
+    color: #374b5d;
+    font-weight: 600;
+}
+
+.class_div_top_links_data_icon {
+    margin: auto;
+    text-align: center;
+}
+
+.more_info_media_page_flex {
+    display: flex;
+}
+
+._plugins_see_cog {
+    width: 36%;
+    margin-left: 2%;
+}
+
+.wall__plugins_see_cog_0 {
+    background: #fff;
+    width: 99.9%;
+    min-height: 5em;
+    margin-bottom: 2%;
+    padding: 1%;
+    -webkit-border-radius: 2px;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.wall__plugins_see_cog_1 {
+    background: #fff;
+    width: 99.9%;
+    min-height: 5em;
+    margin-bottom: 2%;
+    padding: 1%;
+    -webkit-border-radius: 2px;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.wall__plugins_see_cog_1_box {
+    /* display: flex; */
+    width: 100%;
+    /* height: 4em; */
+}
+
+.wall__plugins_see_cog_1_box_w {
+    width: 100%;
+}
+
+.wall__plugins_see_cog_1_box_w_p {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin: auto;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+.wall__plugins_see_cog_1_box_btn {
+    background: #57ba63;
+    color: #fff;
+    width: 34%;
+    height: 2em;
+    padding: 1% !important;
+    border-radius: .16rem !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+}
+
+.wall__plugins_see_cog_1_box_btn a p {
+    color: #fff;
+}
+
+.wall__plugins_see_cog_1_box_btn:hover a p {
+    color: #000;
+}
+
+.wall__yes_acvi {
+    background: #57ba63;
+}
+
+.wall__no_acvi {
+    background: #ec5151;
+}
+
+.wall__plugins_see_cog_2 {
+    background: #fff;
+    width: 99.9%;
+    min-height: 5em;
+    padding: 1%;
+    margin-bottom: 2%;
+    -webkit-border-radius: 2px;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.wall__plugins_see_cog_2_text {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    display: grid;
+}
+
+.wall__plugins_see_cog_2_text_2 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .975rem;
+    font-weight: 500;
+    width: 99%;
+    margin-left: 1%;
+}
+
+/* config */
+.class_page_config_div {
+    display: flex;
+}
+
+.class_page_config_div_1 {
+    width: 60%;
+    /* height: 35em; */
+    min-height: 36em;
+    padding: 1%;
+    border-radius: 2px;
+    background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.class_page_config_div_2 {
+    width: 24.9%;
+    height: 36em;
+    min-height: 36em;
+    /* padding: 1%; */
+    margin-right: 2%;
+    border-radius: 2px;
+    background-color: #fff;
+    border-radius: .25rem;
+    display: block;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.class_page_config_div_2_ul {
+    margin: auto;
+    width: 100%;
+    text-align: left;
+}
+
+.class_page_config_div_2_menu {
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.class_page_config_div_2_menu_p {
+    width: 100%;
+    height: 3em;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin: auto;
+    line-height: 3;
+    padding-left: 3%;
+    border-left: 0px solid transparent;
+}
+
+.class_page_config_div_2_menu_p:hover {
+    background: #f5f5f5;
+    background: linear-gradient(262deg,transparent,#e6e6e647);
+    box-shadow: 0px 3px 2px -2px #dadada;
+}
+
+.text_info_config_p {
+    width: 90%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    color: #192039;
+    font-weight: bold;
+}
+
+.div_flex_input_config {
+    /* height: 6em; */
+    min-height: 6em;
+    display: block;
+}
+
+.div_flex_input_config_p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.label_ap_ss {
+    color: #34364b;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+    margin-right: 4%;
+}
+
+.img_f_ap {
+    background: #edf0f5;
+    margin: 0%;
+    border-radius: 4px;
+    border: 1px solid #ababab;
+}
+
+/* ads */
+.page_ads_admin {
+    width: 98%;
+    display: flex;
+}
+
+.page_ads_admin_1 {
+    background: #ffffff;
+    width: 49.5%;
+    height: 1%;
+    /* min-height: 20em; */
+    padding: 1%;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    display: block;
+    position: relative;
+}
+
+.page_ads_admin_2 {
+    background: #ffffff;
+    width: 49.5%;
+    min-height: 34em;
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    display: block;
+}
+
+.page_ads_admin_text_p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.page_ads_admin_div {
+    margin-bottom: 3%;
+}
+
+/* sitemap */
+.page_sitemap_admin {
+    width: 98%;
+}
+
+.div_sitemap_1_data {
+    background: #fff;
+    width: 55%;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.url_sitemap_div {
+    background: #e7effb;
+    padding: .2rem;
+    border-radius: .25rem;
+    border: 1px solid #d8dfe8;
+}
+
+.url_sitemap_div_text {
+    margin: 1%;
+    color: #315358;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+}
+
+.div_sitemap_2_data {
+    background: #fff;
+    width: 55%;
+    min-height: 10rem;
+    padding: 1%;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.url_sitemap_div_2 {
+    background: #4f566b;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-radius: .25rem;
+    border: 1px solid #ededed;
+    color: #85d996;
+}
+
+.url_sitemap_div_text_ul {
+    width: 100%;
+    margin: 1%;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+}
+
+._fe_sitemap_ul_admin {
+    width: 20%;
+    float: right;
+    margin-left: 1%;
+    font-size: .99rem;
+    color: #eee;
+}
+
+/* */
+.class_div_data_anayt_list {
+    width: 98%;
+    display: flex;
+    height: 36px;
+    margin: auto;
+    border-bottom: 1px solid #f9f9f97a;
+    color: #34364b;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+}
+
+.class_div_data_anayt_list_1 {
+    width: 60%;
+    margin: auto;
+}
+
+.class_div_data_anayt_list_2 {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    /* border: 1px solid #eeeeee85; */
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.class_div_data_anayt_list_scroll {
+    width: 100%;
+    height: 22em;
+    overflow-y: auto;
+}
+
+#grafico_Visits {
+    height: 22em !important;
+}
+
+.class_div_data_anayt_img {
+    width: 20px !important;
+    height: 20px !important;
+    margin: auto;
+}
+
+.ww_a_anayt_1 {
+    width: 15%;
+}
+
+.ww_a_anayt_2 {
+    width: 55%;
+}
+
+.ww_a_anayt_3 {
+    width: 30%;
+}
+
+.scrill_wall_admin_d {
+    overflow-y: auto;
+    height: 20em;
+}
+
+#salo_admin_header {
+    display: flex;
+    width: 100%;
+    color: #555;
+}
+
+/* */
+@media screen and (min-width: 1920px) {
+    .full_page_html {
+    }
+
+    header {
+        width: 53%;
+        margin-left: 28%;
+    }
+
+    .box_menu_panel {
+        margin-left: 9%;
+    }
+
+    .page_div_full {
+        width: 54%;
+        margin-top: 4%;
+        margin-left: 28%;
+    }
+
+    #info_software {
+        width: 69%;
+    }
+	
+	.page_login_user_admin {
+		width: 19%;
+		margin: auto;
+	}
+	
+}
+
+.aviso_docume_span {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+    color: #d24040;
+    font-weight: 600;
+}
+
+.box_send_message {
+	background: #fff;
+    width: 55%;
+    /* min-height: 10rem; */
+    padding: 1%;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    position: absolute;
+}
+
+.textarea_size {
+	height: 20em !important;
+}
+
+.Message_1 {
+	border-bottom: 1px solid #eee;
+    margin-bottom: 4%;
+}
+
+/* */
+.data_2_admin_info {
+    width: 25%;
+    height: 40%;
+    min-height: 8em;
+    margin-top: 3.5%;
+    margin-bottom: 3%;
+    display: block;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    position: relative;
+    text-align: start;
+}
+
+.nave_and_system_div {
+	margin: 2%;	
+	display: block;
+}
+
+.class_alias_datos_sit_sy {
+	margin-bottom: .6em;
+}
+
+.class_alias_datos_sit_sy_1 {
+    display: block;
+    color: #898b96;
+    margin-bottom: .2rem;
+    font-size: .825rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.class_alias_datos_sit_sy_2 {
+    display: block;
+    color: #34364b;
+    margin-bottom: .2rem;
+    font-size: .875rem;
+    font-weight: 700;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+#bar_load_data_line {
+	border-radius: 4px;
+    box-shadow: -1px 1px 2px 0px #00000091;
+}
+
+.bar_load_server_1_gd_primary {
+	background: #44ff6c linear-gradient(45deg,#61b74c,#6fea50);
+}
+.bar_load_server_2_gd_primary {
+	background: #44ff6c linear-gradient(45deg,#f1da39,#fcff40);
+}
+.bar_load_server_3_gd_primary {
+	background: #44ff6c linear-gradient(45deg,#d24439,#ff8a8a);
+}
+
+.error_class_css {
+	color: #dc4a4a;
+    border: 1px solid #ec9696;
+    border-radius: 12px;
+    padding: 1%;
+    text-align: center;
+}
+
+/* */
+/* */
+/* */
+/* */

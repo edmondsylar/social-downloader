@@ -1,0 +1,158 @@
+/* css user */
+.div_table_user_admin {
+    background: #ffffff;
+    width: 98%;
+    height: 87%;
+    margin-top: 1.5%;
+    margin-left: 0%;
+    border-radius: .25rem;
+    padding-bottom: 1%;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.table_text_info_user {
+    background: transparent;
+    width: 100%;
+    height: 3em;
+    background-color: transparent;
+    border-color: rgba(160,175,185,.15);
+    background-clip: padding-box;
+    border-bottom: 1px solid rgba(19,24,44,.125);
+    display: flex;
+}
+
+.table_text_info_user_1 {
+    width: 10%;
+    height: 3em;
+    max-height: 3em;
+    text-align: -webkit-center;
+    text-align: center;
+    margin: auto;
+}
+
+.table_text_info_user_2 {
+    width: 50%;
+    height: 3em;
+    max-height: 3em;
+    text-align: -webkit-center;
+    text-align: center;
+}
+
+.table_text_info_user_3 {
+    width: 40%;
+    height: 3em;
+    max-height: 3em;
+    text-align: -webkit-center;
+    text-align: center;
+}
+
+.div_table_data_users {
+    background: #fff;
+    width: 100%;
+    height: 3.3em;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+
+.div_table_data_users:hover {
+    background: #fbfbfb;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+
+.div_table_data_users_all {
+}
+
+.class_list_user_flex_id {
+    width: 10%;
+    text-align: center;
+    margin: auto;
+}
+
+.class_list_user_flex {
+    width: 60%;
+    display: flex;
+}
+
+.image_user_list_admin_div {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 0%;
+    position: relative;
+    /* line-height: 1; */
+    white-space: nowrap;
+    font-weight: 700;
+    /* border-radius: 100%; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px 0 rgba(50,50,50,.15);
+}
+
+.image_user_list_admin {
+    width: 30px;
+    height: 30px;
+    border-radius: 2em;
+}
+
+.text_name_admin_user {
+    width: 30em;
+    margin: auto;
+    margin-left: 0%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+.class_list_user_flex_name {
+    width: 88%;
+    margin: auto;
+    margin-left: 0;
+}
+
+.class_list_user_flex_edit {
+    width: 30%;
+    text-align: -webkit-center;
+    text-align: center;
+    margin: auto;
+}
+
+.text_por_dea_table_user_top {
+    font-family: 'Roboto', sans-serif;
+    line-height: 3;
+    font-size: 15px;
+    color: #000;
+}
+
+.text_por_dea_table_user {
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info_ass_user_ok {
+    font-size: 12px;
+    background: #5ad870;
+    border: 1px solid #6bc77b;
+    color: #fff;
+    margin-left: 1%;
+    padding: .1rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+
+.info_no_aausr_2 {
+	background: #f17070;
+    border: 1px solid #d87272;
+}
+
+.size_btn_user {	
+	width: 45%;
+	margin: auto;
+}
